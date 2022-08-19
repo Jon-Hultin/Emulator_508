@@ -42,7 +42,7 @@ public class ItemJS5DefinitionAccumulator extends JS5DefinitionAccumulator<Integ
     public void map(JS5Cache cache) throws IOException {
         LOGGER.info("Mapping item definitions from js5 cache.");
 
-        var js5Container = JS5Container.decode(cache.getStore().read(JS5_ARCHIVE_INDEX, JS5_FILE_INDEX));
+        var js5Container = JS5Container.decode(cache.store().read(JS5_ARCHIVE_INDEX, JS5_FILE_INDEX));
         var js5ReferenceTable = JS5ReferenceTable.decode(js5Container.getData());
 
         for (int refIndex = 0; refIndex < js5ReferenceTable.capacity(); refIndex++) {

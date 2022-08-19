@@ -4,33 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfd502d6-7aba-4050-94dd-66609f5ec667" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/GameServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/js5/JS5CacheHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/js5/JS5Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/js5/definition/JS5DefinitionAccumulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/js5/definition/accumulators/ItemJS5DefinitionAccumulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/network/NetworkChannelInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/network/NetworkConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/network/NetworkHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/network/NetworkHandshakeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/network/message/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/network/message/messages/HandshakeMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/network/metadata/HandshakeRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login_Server/src/main/java/com/jagex/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/def/SpriteDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/def/SpriteDefinition.java" afterDir="false" />
+    <list default="true" id="cfd502d6-7aba-4050-94dd-66609f5ec667" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/JS5FileStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/js5/definition/accumulators/ItemJS5DefinitionAccumulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/js5/definition/accumulators/ItemJS5DefinitionAccumulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +40,6 @@
                 <item name="Emulator_508" type="f1a62948:ProjectNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
                 <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Emulator_508" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-                <item name="io.netty:netty5-all:5.0.0.Alpha4" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -142,6 +113,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jon_H\OneDrive\Documents\Java Library\Emulator_508\JS5_Cache\src\main\java\com\jagex\js5" />
       <recent name="C:\Users\Jon_H\OneDrive\Documents\Java Library\Emulator_508\Game_Server\src\main\java\com\jagex" />
       <recent name="C:\Users\Jon_H\OneDrive\Documents\Java Library\Emulator_508\Game_Server\src\main\java" />
       <recent name="C:\Users\Jon_H\OneDrive\Documents\Java Library\Emulator_508\Game_Server" />
@@ -176,6 +148,18 @@
       <option name="presentableId" value="Default" />
       <updated>1660782071591</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1660875051665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660875051665</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
