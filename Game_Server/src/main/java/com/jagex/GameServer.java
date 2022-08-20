@@ -1,6 +1,5 @@
 package com.jagex;
 
-import com.jagex.js5.JS5CacheHandler;
 import com.jagex.network.NetworkChannelInitializer;
 import com.jagex.network.NetworkConstants;
 
@@ -27,9 +26,7 @@ public class GameServer {
     }
 
     public static void main(String[] args) throws IOException {
-        var js5Handler = new JS5CacheHandler();
         var server = new GameServer();
-        js5Handler.accumulate();
         server.start();
     }
 

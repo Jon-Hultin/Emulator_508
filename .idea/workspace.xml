@@ -4,11 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfd502d6-7aba-4050-94dd-66609f5ec667" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/JS5FileStore.java" afterDir="false" />
+    <list default="true" id="cfd502d6-7aba-4050-94dd-66609f5ec667" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/js5/definition/accumulators/ItemJS5DefinitionAccumulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/js5/definition/accumulators/ItemJS5DefinitionAccumulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/GameServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/GameServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/js5/JS5CacheHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/js5/JS5Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/js5/definition/JS5DefinitionAccumulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game_Server/src/main/java/com/jagex/js5/definition/accumulators/ItemJS5DefinitionAccumulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/JS5Archive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/JS5Cache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/JS5ChecksumTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/JS5Container.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/JS5FileIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/JS5FileStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/JS5ReferenceTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/JS5Slice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/def/ClientScript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/def/ItemDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/def/SpriteDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/tools/CacheAggregator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/tools/CacheDefragmentor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/tools/CacheVerifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/tools/ClientScriptDumper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/util/ByteBufferUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/util/CompressionUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/util/FileChannelUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/util/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/util/crypto/RSACipher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/util/crypto/XteaBlockCipher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/util/crypto/hash/Whirlpool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/util/zip/BZip2Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/util/zip/CBZip2InputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/util/zip/CBZip2OutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS5_Cache/src/main/java/com/jagex/js5/util/zip/CRC.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +110,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -113,6 +141,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jon_H\OneDrive\Documents\Java Library\Emulator_508\JS5_Cache\src\main\java\com\jagex\js5\stream" />
       <recent name="C:\Users\Jon_H\OneDrive\Documents\Java Library\Emulator_508\JS5_Cache\src\main\java\com\jagex\js5" />
       <recent name="C:\Users\Jon_H\OneDrive\Documents\Java Library\Emulator_508\Game_Server\src\main\java\com\jagex" />
       <recent name="C:\Users\Jon_H\OneDrive\Documents\Java Library\Emulator_508\Game_Server\src\main\java" />
@@ -155,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660875051665</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1660877704908</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660877704908</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial Commit">
+      <created>1660877813333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660877813333</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
